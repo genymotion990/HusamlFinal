@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/grey"
+    android:orientation="vertical"
+    tools:context="com.example.hp1.myfinalproject.Home"
+    android:weightSum="1">
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical" />
+    <!-- The navigation drawer -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_weight="0.00">
+
+        <LinearLayout
+            android:id="@+id/nav"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:background="@mipmap/running"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:id="@+id/btfitness"
+                android:layout_weight="1"
+                android:padding="5dp" />
+
+            <Button
+                android:background="@mipmap/sexxx"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:id="@+id/btsex"
+                android:layout_weight="1"
+                android:padding="0dp"
+                />
+
+            <Button
+                android:background="@mipmap/couple"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:id="@+id/btrelationship"
+                android:layout_weight="1" />
+            <Button
+                android:background="@mipmap/icon"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:id="@+id/btcamera"
+                android:layout_weight="1" />
+
+
+            <Button
+                android:background="@mipmap/asking"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:id="@+id/btask"
+                android:layout_weight="1" />
+
+            <Button
+                android:background="@mipmap/read"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:id="@+id/btread"
+                android:layout_weight="1"
+                android:padding="0dp" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:text="New's Feed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNewsFeed"
+        android:layout_weight="0.06"
+        android:layout_gravity="top|center_horizontal"
+        android:textSize="26dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal|bold|italic"
+        android:textAlignment="center"
+        android:textAllCaps="true" />
+
+    <ListView
+        android:id="@+id/lvNewsfeed"
+        android:layout_width="364dp"
+        android:layout_height="350dp"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

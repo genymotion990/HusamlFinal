@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/green"
+    android:orientation="vertical"
+    tools:context="com.example.hp1.myfinalproject.Fitness">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:text="Fitness And Health"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNewsFeed"
+        android:layout_weight="0.06"
+        android:layout_gravity="top|center_horizontal"
+        android:textSize="26dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal|bold|italic"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:paddingBottom="50dp" />
+
+    <ListView
+        android:id="@+id/lvNewsfeed"
+        android:layout_width="364dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:paddingTop="50dp" />
+</RelativeLayout>
+

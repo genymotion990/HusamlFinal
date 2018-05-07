@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/grey"
+    android:orientation="vertical"
+    tools:context="com.example.hp1.myfinalproject.About">
+
+    <TextView
+        android:text="This app is developed to be a self-helpping app. The reason it is made so that anyone who is in need for answers or questions will have a place to be in service. Other than the app is also made for fun or curiousity for anyone wanting to know information about a specific topic.  "
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:textSize="25sp"
+        android:fontFamily="serif"
+        android:textColor="#dddddd"
+        android:textAlignment="center" />
+</LinearLayout>
