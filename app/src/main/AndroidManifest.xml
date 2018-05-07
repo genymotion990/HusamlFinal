@@ -24,7 +24,9 @@
         <activity android:name=".Relationship" />
         <activity android:name=".About" />
         <activity android:name=".ProfileSet" />
-        <activity android:name=".Sexuality" />
+        <activity android:name=".Sexuality">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
         <activity android:name=".Fitness" />
         <activity android:name=".Fileread" />
         <activity android:name=".Profile"></activity>
